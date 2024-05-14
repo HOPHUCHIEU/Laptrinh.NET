@@ -12,6 +12,7 @@ namespace DoAnCaNhan
 {
     public partial class frm_DangNhap : Form
     {
+        LOPDUNGCHUNG lopchung = new LOPDUNGCHUNG();
         public frm_DangNhap()
         {
             InitializeComponent();
@@ -59,6 +60,23 @@ namespace DoAnCaNhan
             else txt_MatKhau.UseSystemPasswordChar = true;
         }
 
-        
+        private void btn_DangNhap_Click(object sender, EventArgs e)
+        {
+            string sql = "Select COUNT (*) from MAYBAY where TenTK = '" + txt_TenDangNhap.Text + "' and MatKhau = '" + txt_MatKhau.Text + "'";
+            int kq = (int)lopchung.GetData(sql);
+            if (kq >= 1)
+            {
+                MessageBox.Show("Đăng nhập thành công!");
+                frm_DangNhap sv = new frm_DangNhap();
+                sv.Show();
+            }
+            else MessageBox.Show("Đăng nhập thất bại, tài khoản hoặc mật khẩu không đúng");
+        }
+
+        private void btn_Thoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Bạn có thật sự muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes) Application.Exit();
+        }
     }
 }

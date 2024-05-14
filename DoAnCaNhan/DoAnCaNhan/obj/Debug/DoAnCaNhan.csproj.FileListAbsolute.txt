@@ -10,3 +10,15 @@ D:\Lập trình .net\ĐỒ ÁN CÁ NHÂN\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaN
 D:\Lập trình .net\ĐỒ ÁN CÁ NHÂN\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.pdb
 D:\Lập trình .net\ĐỒ ÁN CÁ NHÂN\DoAnCaNhan\DoAnCaNhan\bin\Debug\MAYBAY.mdf
 D:\Lập trình .net\ĐỒ ÁN CÁ NHÂN\DoAnCaNhan\DoAnCaNhan\bin\Debug\MAYBAY_log.ldf
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\bin\Debug\MAYBAY.mdf
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\bin\Debug\MAYBAY_log.ldf
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\bin\Debug\DoAnCaNhan.exe.config
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\bin\Debug\DoAnCaNhan.exe
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\bin\Debug\DoAnCaNhan.pdb
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.csproj.AssemblyReference.cache
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.frm_DangNhap.resources
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.Properties.Resources.resources
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.csproj.GenerateResource.cache
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.csproj.CoreCompileInputs.cache
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.exe
+D:\Lập trình .net\DoAnCaNhan\DoAnCaNhan\DoAnCaNhan\obj\Debug\DoAnCaNhan.pdb
