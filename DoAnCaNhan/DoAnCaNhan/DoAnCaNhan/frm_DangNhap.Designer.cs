@@ -58,6 +58,7 @@
             btn_DangNhap.Text = "Đăng Nhập";
             btn_DangNhap.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             btn_DangNhap.UseVisualStyleBackColor = false;
+            btn_DangNhap.Click += new System.EventHandler(this.btn_DangNhap_Click);
             // 
             // label2
             // 
@@ -73,7 +74,7 @@
             // 
             // txt_TenDangNhap
             // 
-            this.txt_TenDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_TenDangNhap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_TenDangNhap.Location = new System.Drawing.Point(427, 414);
             this.txt_TenDangNhap.Name = "txt_TenDangNhap";
             this.txt_TenDangNhap.Size = new System.Drawing.Size(187, 26);
@@ -81,7 +82,7 @@
             // 
             // txt_MatKhau
             // 
-            this.txt_MatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_MatKhau.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_MatKhau.Location = new System.Drawing.Point(427, 465);
             this.txt_MatKhau.Name = "txt_MatKhau";
             this.txt_MatKhau.Size = new System.Drawing.Size(187, 26);
@@ -113,6 +114,7 @@
             this.btn_Thoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Thoat.UseVisualStyleBackColor = false;
+            this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
             // 
             // ck_HienThiMatKhau
             // 
@@ -146,8 +148,8 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(67, 145);
+            this.label1.ForeColor = System.Drawing.Color.Cyan;
+            this.label1.Location = new System.Drawing.Point(192, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(148, 31);
             this.label1.TabIndex = 19;
@@ -158,8 +160,8 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(67, 176);
+            this.label4.ForeColor = System.Drawing.Color.Cyan;
+            this.label4.Location = new System.Drawing.Point(192, 143);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 31);
             this.label4.TabIndex = 20;
@@ -170,8 +172,8 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label5.Location = new System.Drawing.Point(67, 207);
+            this.label5.ForeColor = System.Drawing.Color.Cyan;
+            this.label5.Location = new System.Drawing.Point(192, 174);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(91, 31);
             this.label5.TabIndex = 21;
